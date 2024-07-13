@@ -1,0 +1,12 @@
+section.recipes {
+    height: 100vh;
+    max-height: 100vh;
+    .senFont {
+        font-size: 80px;
+        font-weight: 800;
+        color: var(--main-color);
+    }
+    .card-title {
+        color: var(--main-color);
+    }
+}

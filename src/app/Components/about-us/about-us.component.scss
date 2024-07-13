@@ -1,0 +1,33 @@
+section.how-work {
+
+    div.container-fluid,
+    div.row {
+        height: inherit;
+        max-height: inherit;
+    }
+
+    div.col-md-7 {
+        height: 100vh;
+        background-color: var(--main-color);
+
+        .senFont {
+            font-size: 80px;
+            font-weight: 800;
+        }
+    }
+
+    div.col-md-5 {
+        height: inherit;
+
+        .img-container {
+            top: 25%;
+            left: 50%;
+
+            img {
+                width: 350px;
+                height: 380px;
+
+            }
+        }
+    }
+}

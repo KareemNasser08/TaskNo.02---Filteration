@@ -1,0 +1,40 @@
+.testymonials {
+    height: 100vh;
+    max-height: 100vh;
+    background-color: var(--main-color);
+
+
+    .layer {
+        height: inherit;
+        max-height: inherit;
+        background-image: url("/assets/images/Group.png");
+        background-attachment: fixed;
+        opacity: 0.4;
+
+    }
+
+    .container,
+    .row {
+
+        height: inherit;
+        max-height: inherit;
+
+        .senFont {
+            font-size: 80px;
+            font-weight: 800;
+        }
+    }
+
+    .row {
+        .col-md-6 {
+            div.rounded-4.p-3.bg-white {
+
+                h6,
+                div i {
+                    color: var(--main-color);
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

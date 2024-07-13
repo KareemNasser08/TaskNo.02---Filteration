@@ -1,0 +1,41 @@
+.how-work {
+    height: 100vh;
+    max-height: 100vh;
+    background-image: url("/assets/images/mask_group.png");
+    background-attachment: fixed;
+
+    .col-md-5 {
+        height: inherit;
+        max-height: inherit;
+
+
+        p {
+            color: var(--main-color);
+        }
+    }
+
+    .col-md-7 {
+        height: inherit;
+        background-color: var(--main-color);
+
+        .senFont {
+            font-size: 80px;
+            font-weight: 800;
+        }
+    }
+
+    .products {
+        top: 40%;
+    }
+
+    .card-product {
+        width: 250px;
+        height: 205px;
+
+        img {
+            width: inherit;
+            height: inherit;
+        }
+
+    }
+}

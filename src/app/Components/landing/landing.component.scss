@@ -1,0 +1,40 @@
+section {
+
+    div.container-fluid,
+    div.row {
+        height: inherit;
+        max-height: inherit;
+    }
+
+    div.container-fluid {
+        div.row {
+            div.col-md-7 {
+                height: 100vh;
+                background-color: var(--main-color);
+
+                h1.senFont {
+                    font-size: 80px;
+                    font-weight: 800;
+                }
+
+                div.contacts {
+                    width: 300px;
+                    height: 180px;
+                    background-image: url("/assets/images/MaskGroup01.png");
+                    background-attachment: fixed;
+                }
+            }
+
+            div.col-md-5 {
+                background-image: url("/assets/images/mask_group.png");
+                background-attachment: fixed;
+                height: 100vh;
+
+                .imgContainer {
+                    left: -40%;
+                    top: 40%;
+                }
+            }
+        }
+    }
+}

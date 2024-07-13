@@ -1,0 +1,20 @@
+<section class="recipes">
+    <h1 class="text-center mt-2 text-uppercase senFont">recipes</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let meal of meals">
+                <div class="card" style="width: 18rem;">
+                    <img [src]="meal.strMealThumb" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">{{meal.strMeal}}</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                            expedita repellat eos? Minus dicta inventore animi reprehenderit asperiores. Sunt,
+                            provident.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

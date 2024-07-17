@@ -12,7 +12,7 @@ export class ContactUsComponent implements OnInit {
   contactForm = new FormGroup({
     email: new FormControl(null, [Validators.required, Validators.email]),
     phone: new FormControl(null, [Validators.required]),
-    name: new FormControl(null, [Validators.required, Validators.minLength(3)]),
+    name: new FormControl(null, [Validators.required, Validators.minLength(3),Validators.maxLength(45)]),
   });
 
   constructor(private _ContactUsService: ContactUsService) { }

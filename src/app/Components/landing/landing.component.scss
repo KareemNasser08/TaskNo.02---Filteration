@@ -37,4 +37,52 @@ section {
             }
         }
     }
+
+    @media (max-width: 768px) {
+        div.container-fluid {
+            div.row {
+                div.col-md-7 {
+                    height: 95vh;
+                    padding: 20px;
+
+                    h1.senFont {
+                        font-size: 40px;
+                        text-align: center;
+                    }
+
+                    p {
+                        width: 100%;
+                        text-align: center;
+                    }
+
+                    button {
+                        display: block;
+                        margin: 0 auto;
+                    }
+
+                    div.contacts {
+                        width: 50%;
+                        height: auto;
+                        display: flex;
+                        justify-content: center;
+                        background-size: cover;
+                    }
+
+                    .contacts a {
+                        margin: 0 10px;
+                    }
+
+                    .contacts a i {
+                        font-size: 1.5rem;
+                    }
+
+                    .contacts {
+                        background-attachment: scroll;
+                    }
+                }
+
+            }
+        }
+    }
+
 }
